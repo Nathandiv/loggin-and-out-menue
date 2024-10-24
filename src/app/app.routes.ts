@@ -7,11 +7,17 @@ import { BookingComponent } from './Pages/booking/booking.component';
 import { UsersComponent } from './Pages/users/users.component';
 
 export const routes: Routes = [
+        // admin and client
     {path:'Dashbord',component:DashbordComponent},
+        // admin
     {path:'Package',component:PackageComponent},
+    // admin
     {path:'Client',component:ClientComponent},
+        // client
     {path:'Rooms',component:RoomsComponent},
+        // client
     {path:'Booking',component:BookingComponent},
+        // admin and client
     {path:'Users',component:UsersComponent},
 
 ];
