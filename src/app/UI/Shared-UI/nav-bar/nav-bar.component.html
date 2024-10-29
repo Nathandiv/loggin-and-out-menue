@@ -6,15 +6,16 @@
     </ul>
     
     <ul *ngIf="isLoggedIn">
-      <li><a href="/profile">Profile</a></li>
-      <li><a href="/settings">Settings</a></li>
+      <li><a href="/Rooms">Profile</a></li>
+      <li><a href="/Booking">Settings</a></li>
       <!-- Add other private links here -->
     </ul>
   
     <ul *ngIf="!isLoggedIn">
-      <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><a href="/Users">About</a></li>
+      <li><a href="/Package">Contact</a></li>
       <!-- Add other public links here -->
     </ul>
   </nav>
+
   

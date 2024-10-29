@@ -8,7 +8,7 @@ import { UsersComponent } from './Pages/users/users.component';
 
 export const routes: Routes = [
         // admin and client
-    {path:'Dashbord',component:DashbordComponent},
+    {path:'',component:DashbordComponent},
         // admin
     {path:'Package',component:PackageComponent},
     // admin
